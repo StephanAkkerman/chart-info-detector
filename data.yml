@@ -1,0 +1,4 @@
+path: datasets/tradingview
+train: images/train
+val: images/val
+names: [symbol_title, last_price_pill, watermark]
