@@ -14,6 +14,25 @@
 
 In this section you can provide a brief introduction to the project. You can also include a brief description of the project and its features.
 
+## Labelling Process 🏷️
+After installing Label Studio using the command in the Installation section, you can start a new labelling project by running the following command in your terminal:
+
+```bash
+label-studio
+```
+
+Use the following XML code snippet as the labeling configuration:
+
+```xml
+<View>
+  <Image name="img" value="$image"/>
+  <RectangleLabels name="label" toName="img">
+    <Label value="symbol_title" background="#1f77b4"/>
+    <Label value="last_price_pill" background="#ff7f0e"/>
+  </RectangleLabels>
+</View>
+```
+
 ## Table of Contents 🗂
 
 - [Key Features](#key-features)
