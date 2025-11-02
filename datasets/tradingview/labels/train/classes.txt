@@ -1,0 +1,2 @@
+last_price_pill
+symbol_title
