@@ -1,4 +1,3 @@
-# tools/dedupe_yolo_labels.py
 """
 Deduplicate YOLO labels named like: <id>-<file_base>.txt
 Examples:
@@ -13,8 +12,6 @@ Usage:
   python tools/dedupe_yolo_labels.py --root datasets/tradingview/labels --recursive --rename
   python tools/dedupe_yolo_labels.py --root datasets/tradingview/labels --recursive --strategy id_lex
 """
-
-from __future__ import annotations
 
 import argparse
 import re
