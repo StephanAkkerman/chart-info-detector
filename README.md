@@ -33,6 +33,11 @@ Use the following XML code snippet as the labeling configuration:
 </View>
 ```
 
+After labelling the images you can start the training process using this command:
+```bash
+yolo detect train model=yolo12n.pt data=datasets/tradingview/data.yaml imgsz=1280 epochs=60 batch=16 seed=42 workers=0 mosaic=0.5 mixup=0.1 amp=True
+```
+
 ## Table of Contents 🗂
 
 - [Key Features](#key-features)
