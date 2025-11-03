@@ -2,6 +2,8 @@ datasets/*/images/
 *.pt
 runs/
 *.cache
+wandb/
+Ultralytics/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

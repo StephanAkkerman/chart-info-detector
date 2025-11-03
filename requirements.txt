@@ -2,3 +2,4 @@ ultralytics
 datasets
 label-studio
 torchvision
+wandb

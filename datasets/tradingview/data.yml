@@ -2,4 +2,4 @@ path: datasets/tradingview
 train: images/train
 val: images/val
 test: images/test
-names: [symbol_title, last_price_pill]
+names: [last_price_pill, symbol_title]
