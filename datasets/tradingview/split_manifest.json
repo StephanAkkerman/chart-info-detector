@@ -1,0 +1,1163 @@
+{
+  "dataset": "StephanAkkerman/stock-charts",
+  "hf_split": "train",
+  "seed": 42,
+  "splits": {
+    "train": [
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0000.png",
+        "orig_hf_index": 1963,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0001.png",
+        "orig_hf_index": 1497,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0002.png",
+        "orig_hf_index": 4120,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0003.png",
+        "orig_hf_index": 192,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0004.png",
+        "orig_hf_index": 1534,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0005.png",
+        "orig_hf_index": 3829,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0006.png",
+        "orig_hf_index": 1698,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0007.png",
+        "orig_hf_index": 2133,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0008.png",
+        "orig_hf_index": 1875,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0009.png",
+        "orig_hf_index": 726,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0010.png",
+        "orig_hf_index": 1647,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0011.png",
+        "orig_hf_index": 2192,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0012.png",
+        "orig_hf_index": 2869,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0013.png",
+        "orig_hf_index": 1113,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0014.png",
+        "orig_hf_index": 4182,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0015.png",
+        "orig_hf_index": 2683,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0016.png",
+        "orig_hf_index": 1553,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0017.png",
+        "orig_hf_index": 729,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0018.png",
+        "orig_hf_index": 3030,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0019.png",
+        "orig_hf_index": 3916,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0020.png",
+        "orig_hf_index": 174,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0021.png",
+        "orig_hf_index": 1289,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0022.png",
+        "orig_hf_index": 1957,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0023.png",
+        "orig_hf_index": 325,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0024.png",
+        "orig_hf_index": 2517,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0025.png",
+        "orig_hf_index": 1606,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0026.png",
+        "orig_hf_index": 2465,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0027.png",
+        "orig_hf_index": 3652,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0028.png",
+        "orig_hf_index": 2224,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0029.png",
+        "orig_hf_index": 1654,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0030.png",
+        "orig_hf_index": 3466,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0031.png",
+        "orig_hf_index": 3657,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0032.png",
+        "orig_hf_index": 1197,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0033.png",
+        "orig_hf_index": 1204,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0034.png",
+        "orig_hf_index": 3984,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0035.png",
+        "orig_hf_index": 3969,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0036.png",
+        "orig_hf_index": 3170,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0037.png",
+        "orig_hf_index": 98,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0038.png",
+        "orig_hf_index": 1047,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0039.png",
+        "orig_hf_index": 2400,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0040.png",
+        "orig_hf_index": 2313,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0041.png",
+        "orig_hf_index": 597,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0042.png",
+        "orig_hf_index": 1502,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0043.png",
+        "orig_hf_index": 530,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0044.png",
+        "orig_hf_index": 763,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0045.png",
+        "orig_hf_index": 3180,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0046.png",
+        "orig_hf_index": 4029,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0047.png",
+        "orig_hf_index": 2980,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0048.png",
+        "orig_hf_index": 2764,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0049.png",
+        "orig_hf_index": 3748,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0050.png",
+        "orig_hf_index": 829,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0051.png",
+        "orig_hf_index": 1383,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0052.png",
+        "orig_hf_index": 3597,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0053.png",
+        "orig_hf_index": 2317,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0054.png",
+        "orig_hf_index": 2272,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0055.png",
+        "orig_hf_index": 426,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0056.png",
+        "orig_hf_index": 570,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0057.png",
+        "orig_hf_index": 419,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0058.png",
+        "orig_hf_index": 289,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0059.png",
+        "orig_hf_index": 3420,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0060.png",
+        "orig_hf_index": 834,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0061.png",
+        "orig_hf_index": 2808,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0062.png",
+        "orig_hf_index": 429,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0063.png",
+        "orig_hf_index": 3290,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0064.png",
+        "orig_hf_index": 2941,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0065.png",
+        "orig_hf_index": 1449,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0066.png",
+        "orig_hf_index": 3037,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0067.png",
+        "orig_hf_index": 4102,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0068.png",
+        "orig_hf_index": 2977,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0069.png",
+        "orig_hf_index": 3603,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0070.png",
+        "orig_hf_index": 2728,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0071.png",
+        "orig_hf_index": 832,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0072.png",
+        "orig_hf_index": 112,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0073.png",
+        "orig_hf_index": 1532,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0074.png",
+        "orig_hf_index": 1191,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0075.png",
+        "orig_hf_index": 3229,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0076.png",
+        "orig_hf_index": 781,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0077.png",
+        "orig_hf_index": 879,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0078.png",
+        "orig_hf_index": 1910,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0079.png",
+        "orig_hf_index": 4061,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0080.png",
+        "orig_hf_index": 2413,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0081.png",
+        "orig_hf_index": 1341,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0082.png",
+        "orig_hf_index": 4153,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0083.png",
+        "orig_hf_index": 2554,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0084.png",
+        "orig_hf_index": 580,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0085.png",
+        "orig_hf_index": 2604,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0086.png",
+        "orig_hf_index": 505,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0087.png",
+        "orig_hf_index": 1740,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0088.png",
+        "orig_hf_index": 3176,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0089.png",
+        "orig_hf_index": 692,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0090.png",
+        "orig_hf_index": 1202,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0091.png",
+        "orig_hf_index": 415,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0092.png",
+        "orig_hf_index": 17,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0093.png",
+        "orig_hf_index": 561,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0094.png",
+        "orig_hf_index": 2838,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0095.png",
+        "orig_hf_index": 235,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0096.png",
+        "orig_hf_index": 1357,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0097.png",
+        "orig_hf_index": 916,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0098.png",
+        "orig_hf_index": 2840,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0099.png",
+        "orig_hf_index": 2847,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0100.png",
+        "orig_hf_index": 1966,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0101.png",
+        "orig_hf_index": 1227,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0102.png",
+        "orig_hf_index": 1729,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0103.png",
+        "orig_hf_index": 3448,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0104.png",
+        "orig_hf_index": 106,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0105.png",
+        "orig_hf_index": 2905,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0106.png",
+        "orig_hf_index": 3749,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0107.png",
+        "orig_hf_index": 2971,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0108.png",
+        "orig_hf_index": 371,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0109.png",
+        "orig_hf_index": 430,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0110.png",
+        "orig_hf_index": 923,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0111.png",
+        "orig_hf_index": 3328,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0112.png",
+        "orig_hf_index": 4183,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0113.png",
+        "orig_hf_index": 480,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0114.png",
+        "orig_hf_index": 1077,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0115.png",
+        "orig_hf_index": 3302,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0116.png",
+        "orig_hf_index": 3325,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0117.png",
+        "orig_hf_index": 818,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0118.png",
+        "orig_hf_index": 48,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0119.png",
+        "orig_hf_index": 1691,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0120.png",
+        "orig_hf_index": 2637,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0121.png",
+        "orig_hf_index": 2745,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0122.png",
+        "orig_hf_index": 1369,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0123.png",
+        "orig_hf_index": 3375,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0124.png",
+        "orig_hf_index": 826,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0125.png",
+        "orig_hf_index": 3792,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0126.png",
+        "orig_hf_index": 3633,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0127.png",
+        "orig_hf_index": 638,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0128.png",
+        "orig_hf_index": 1774,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0129.png",
+        "orig_hf_index": 1930,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0130.png",
+        "orig_hf_index": 2240,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0131.png",
+        "orig_hf_index": 1374,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0132.png",
+        "orig_hf_index": 1423,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0133.png",
+        "orig_hf_index": 3590,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0134.png",
+        "orig_hf_index": 437,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0135.png",
+        "orig_hf_index": 2101,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0136.png",
+        "orig_hf_index": 3854,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0137.png",
+        "orig_hf_index": 557,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0138.png",
+        "orig_hf_index": 2291,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0139.png",
+        "orig_hf_index": 2810,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0140.png",
+        "orig_hf_index": 811,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0141.png",
+        "orig_hf_index": 2596,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0142.png",
+        "orig_hf_index": 228,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0143.png",
+        "orig_hf_index": 1614,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0144.png",
+        "orig_hf_index": 3143,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0145.png",
+        "orig_hf_index": 2882,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0146.png",
+        "orig_hf_index": 3591,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0147.png",
+        "orig_hf_index": 3817,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0148.png",
+        "orig_hf_index": 3770,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\train\\chart_0149.png",
+        "orig_hf_index": 2475,
+        "label": 0
+      }
+    ],
+    "val": [
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0000.png",
+        "orig_hf_index": 1459,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0001.png",
+        "orig_hf_index": 4167,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0002.png",
+        "orig_hf_index": 1007,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0003.png",
+        "orig_hf_index": 2868,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0004.png",
+        "orig_hf_index": 2142,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0005.png",
+        "orig_hf_index": 140,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0006.png",
+        "orig_hf_index": 486,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0007.png",
+        "orig_hf_index": 2423,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0008.png",
+        "orig_hf_index": 1833,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0009.png",
+        "orig_hf_index": 4070,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0010.png",
+        "orig_hf_index": 887,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0011.png",
+        "orig_hf_index": 3755,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0012.png",
+        "orig_hf_index": 1808,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0013.png",
+        "orig_hf_index": 399,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0014.png",
+        "orig_hf_index": 131,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0015.png",
+        "orig_hf_index": 4166,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0016.png",
+        "orig_hf_index": 1730,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0017.png",
+        "orig_hf_index": 2030,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0018.png",
+        "orig_hf_index": 1057,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0019.png",
+        "orig_hf_index": 4037,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0020.png",
+        "orig_hf_index": 3607,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0021.png",
+        "orig_hf_index": 55,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0022.png",
+        "orig_hf_index": 3595,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0023.png",
+        "orig_hf_index": 3952,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0024.png",
+        "orig_hf_index": 1945,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0025.png",
+        "orig_hf_index": 1615,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0026.png",
+        "orig_hf_index": 236,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0027.png",
+        "orig_hf_index": 2685,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0028.png",
+        "orig_hf_index": 3145,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0029.png",
+        "orig_hf_index": 2122,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0030.png",
+        "orig_hf_index": 894,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0031.png",
+        "orig_hf_index": 1844,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0032.png",
+        "orig_hf_index": 3092,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0033.png",
+        "orig_hf_index": 756,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0034.png",
+        "orig_hf_index": 3888,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0035.png",
+        "orig_hf_index": 3090,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0036.png",
+        "orig_hf_index": 1547,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0037.png",
+        "orig_hf_index": 3292,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0038.png",
+        "orig_hf_index": 893,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\val\\chart_0039.png",
+        "orig_hf_index": 3600,
+        "label": 0
+      }
+    ],
+    "test": [
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0000.png",
+        "orig_hf_index": 1296,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0001.png",
+        "orig_hf_index": 193,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0002.png",
+        "orig_hf_index": 1516,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0003.png",
+        "orig_hf_index": 3163,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0004.png",
+        "orig_hf_index": 3513,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0005.png",
+        "orig_hf_index": 4021,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0006.png",
+        "orig_hf_index": 2048,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0007.png",
+        "orig_hf_index": 2000,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0008.png",
+        "orig_hf_index": 1860,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0009.png",
+        "orig_hf_index": 2060,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0010.png",
+        "orig_hf_index": 1411,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0011.png",
+        "orig_hf_index": 81,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0012.png",
+        "orig_hf_index": 672,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0013.png",
+        "orig_hf_index": 917,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0014.png",
+        "orig_hf_index": 1304,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0015.png",
+        "orig_hf_index": 1723,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0016.png",
+        "orig_hf_index": 2556,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0017.png",
+        "orig_hf_index": 2269,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0018.png",
+        "orig_hf_index": 2264,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0019.png",
+        "orig_hf_index": 2886,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0020.png",
+        "orig_hf_index": 2884,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0021.png",
+        "orig_hf_index": 3809,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0022.png",
+        "orig_hf_index": 741,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0023.png",
+        "orig_hf_index": 478,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0024.png",
+        "orig_hf_index": 4016,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0025.png",
+        "orig_hf_index": 1544,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0026.png",
+        "orig_hf_index": 616,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0027.png",
+        "orig_hf_index": 1347,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0028.png",
+        "orig_hf_index": 908,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0029.png",
+        "orig_hf_index": 2508,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0030.png",
+        "orig_hf_index": 3054,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0031.png",
+        "orig_hf_index": 1199,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0032.png",
+        "orig_hf_index": 2217,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0033.png",
+        "orig_hf_index": 1281,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0034.png",
+        "orig_hf_index": 148,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0035.png",
+        "orig_hf_index": 2188,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0036.png",
+        "orig_hf_index": 3133,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0037.png",
+        "orig_hf_index": 2242,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0038.png",
+        "orig_hf_index": 619,
+        "label": 0
+      },
+      {
+        "filename": "E:\\GitHub\\chart-info-detector\\datasets\\tradingview\\images\\test\\chart_0039.png",
+        "orig_hf_index": 659,
+        "label": 0
+      }
+    ]
+  }
+}

@@ -1,4 +1,6 @@
+# datasets/tradingview/data.yaml
 path: datasets/tradingview
 train: images/train
 val: images/val
+test: images/test
 names: [symbol_title, last_price_pill]
