@@ -1,4 +1,7 @@
 datasets/*/images/
+*.pt
+runs/
+*.cache
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
