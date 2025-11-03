@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolo12n.pt
-data: E:\GitHub\chart-info-detector\datasets\tradingview\data.yaml
+data: E:\GitHub\chart-info-detector\datasets\tradingview\data.yml
 epochs: 60
 time: null
 patience: 100

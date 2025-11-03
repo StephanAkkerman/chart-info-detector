@@ -1,12 +1,13 @@
 # train_yolo_detector.py
+import sys
 from pathlib import Path
 
 from ultralytics import YOLO
 
-# --- paths (use absolute paths on Windows to avoid CWD issues) ---
-REPO = Path(r"E:/GitHub/chart-info-detector")  # ← change if needed
-DATA_YAML = REPO / "datasets/tradingview/data.yaml"  # your data.yaml
-WEIGHTS = "yolo12n.pt"  # or a local .pt path
+REPO = Path(r"E:\GitHub\chart-info-detector")  # <- adjust if needed
+DATA_YAML = (REPO / "datasets" / "tradingview" / "data.yaml").resolve()
+WEIGHTS = "yolo12n.pt"  # or absolute path to .pt
+# 1) Hard sanity checks BEFORE calling Ultralytics
 
 
 def main() -> None:
@@ -17,7 +18,9 @@ def main() -> None:
 
     # Train
     model.train(
-        data=str(DATA_YAML),  # absolute path safest on Windows
+        data=str(
+            r"E:\GitHub\chart-info-detector\datasets\tradingview\data.yml"
+        ),  # absolute path safest on Windows
         epochs=60,
         imgsz=1280,  # UI text is small; 1280–1536 helps
         batch=16,
