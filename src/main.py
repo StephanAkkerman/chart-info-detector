@@ -1,9 +1,10 @@
+import os
 from pathlib import Path
 
 from ultralytics import YOLO
 
-REPO = Path(r"E:\GitHub\chart-info-detector")
-DATA_YAML = str(r"E:\GitHub\chart-info-detector\datasets\tradingview\data.yml")
+REPO = Path(os.getcwd())
+DATA_YAML = REPO / "datasets/tradingview/data.yml"
 WEIGHTS = "yolo12n.pt"  # or absolute path to .pt
 IMAGE_SIZE = 1536  # 1280–1536 good for small UI text
 # 1) Hard sanity checks BEFORE calling Ultralytics
