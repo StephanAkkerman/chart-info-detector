@@ -87,25 +87,6 @@ def auto_upload_to_hf(run_name: str, test_map50: float) -> None:
             repo_type="model",
         )
 
-    # Simple model card refresh (optional / minimal)
-    readme = f"""# Chart Info Detector (YOLO12n)
-
-Latest model from run `{run_name}`.
-
-- Test mAP50 (all classes): **{test_map50:.4f}**
-- Trained with Ultralytics YOLO on `StephanAkkerman/chart-info-yolo`.
-
-See `results.csv` for full metrics.
-"""
-    tmp_readme = run_dir / "_README.md"
-    tmp_readme.write_text(readme, encoding="utf-8")
-    upload_file(
-        path_or_fileobj=tmp_readme,
-        path_in_repo="README.md",
-        repo_id=HF_REPO_ID,
-        repo_type="model",
-    )
-
     print(f"[HF] Upload complete: https://huggingface.co/{HF_REPO_ID}")
 
 
