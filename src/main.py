@@ -15,7 +15,7 @@ MLOPS_STATE = REPO / "mlops_state.json"
 
 ## Model settings
 YOLO_MODEL = "yolo12n"
-IMAGE_SIZE = 1792
+IMAGE_SIZE = 1792  # bigger means more VRAM
 EPOCHS = 80
 
 
