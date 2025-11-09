@@ -14,6 +14,48 @@
 
 This project provides a tool to detect and extract key information from trading charts, such as the symbol title and last price pill, using computer vision techniques. The tool leverages the YOLO (You Only Look Once) object detection model to accurately identify and label these elements in chart images.
 
+## Table of Contents 🗂
+- [Installation](#installation)
+- [Usage](#usage)
+- [Labelling Process (optional)](#labelling-process-optional)
+- [Citation](#citation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation ⚙️
+<!-- Adjust the link of the second command to your own repo -->
+
+The required packages to run this code can be found in the requirements.txt file. To run this file, execute the following code block after cloning the repository:
+
+```bash
+pip install -r requirements.txt
+```
+
+or
+
+```bash
+pip install git+https://github.com/StephanAkkerman/chart-info-detector.git
+```
+
+## Usage ⌨️
+To train the YOLO model on your dataset, run the following command in your terminal:
+
+```bash
+python src/main.py
+```
+
+To set up wandb for it, simply run the following command before training:
+
+```bash 
+wandb login
+```
+
+And then enable wandb in the settings with:
+
+```bash
+yolo settings wandb=True
+```
+
 ## Labelling Process (optional) 🏷️
 I have already labelled a dataset of trading chart images using Label Studio which are availble on this Hugginface dataset repo: https://huggingface.co/datasets/StephanAkkerman/chart-info-yolo. If you want to label your own dataset, follow the instructions below.
 
@@ -56,48 +98,6 @@ datasets/
 3. Verify that the class names in the `data.yml` file match the labels you used during annotation (`symbol_title` and `last_price_pill`).
 4. Run the `align_label_files.py` script in the `dataset_creation` folder to ensure that all images have corresponding label files and vice versa.
 5. Run `check_yolo_dataset.py` script in the `dataset_creation` folder to verify the integrity of the dataset.
-
-## Table of Contents 🗂
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Citation](#citation)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation ⚙️
-<!-- Adjust the link of the second command to your own repo -->
-
-The required packages to run this code can be found in the requirements.txt file. To run this file, execute the following code block after cloning the repository:
-
-```bash
-pip install -r requirements.txt
-```
-
-or
-
-```bash
-pip install git+https://github.com/StephanAkkerman/chart-info-detector.git
-```
-
-## Usage ⌨️
-To train the YOLO model on your dataset, run the following command in your terminal:
-
-```bash
-python src/main.py
-```
-
-To set up wandb for it, simply run the following command before training:
-
-```bash 
-wandb login
-```
-
-And then enable wandb in the settings with:
-
-```bash
-yolo settings wandb=True
-```
 
 ## Citation ✍️
 <!-- Be sure to adjust everything here so it matches your name and repo -->
