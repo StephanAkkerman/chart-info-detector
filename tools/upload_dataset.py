@@ -1,3 +1,5 @@
+"""Upload the tradingview dataset to the Hugging Face Hub in Dataset format."""
+
 from pathlib import Path
 from typing import Any, Dict, List
 

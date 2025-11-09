@@ -1,3 +1,5 @@
+"""Check YOLO dataset integrity and report statistics."""
+
 import re
 from pathlib import Path
 

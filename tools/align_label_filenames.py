@@ -1,5 +1,4 @@
-# tools/align_label_filenames.py
-from __future__ import annotations
+"""Align label filenames in the tradingview dataset to match image filenames."""
 
 import re
 from pathlib import Path

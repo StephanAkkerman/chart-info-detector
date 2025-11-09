@@ -1,4 +1,3 @@
-# sample_charts_splits.py
 import io
 import json
 import random
