@@ -140,7 +140,7 @@ def main(resume: bool = False, run_name: str | None = None) -> None:
         data=DATA_YAML,
         epochs=EPOCHS,
         imgsz=IMAGE_SIZE,
-        batch=-1,
+        batch=0.9,
         seed=42,
         device=0,
         workers=0,
