@@ -14,11 +14,17 @@
 
 This project provides a tool to detect and extract key information from trading charts, such as the symbol title and last price pill, using computer vision techniques. The tool leverages the YOLO (You Only Look Once) object detection model to accurately identify and label these elements in chart images.
 
-The model is trained on a custom dataset of trading chart images annotated with bounding boxes around the `symbol_title` and `last_price_pill`. You can find the dataset [here](https://huggingface.co/datasets/StephanAkkerman/chart-info-yolo). The following image shows an example of the training data with labeled regions:
+The model is trained on a custom dataset of trading chart images annotated with bounding boxes around the `symbol_title` and `last_price_pill`. You can find the labelled dataset [here](https://huggingface.co/datasets/StephanAkkerman/chart-info-yolo). The following image shows an example of the training data with labeled regions:
 
-![Labeled Training Data](img/training_data.png)
+<details closed>
+<summary>Training Data Example</summary>
+<img src="img/training_data.png" alt="Labeled Training Data">
+</details>
 
-### Example Output
+### Pre-trained Model 🤖
+You can find the pre-trained model available on the Huggingface Model Hub: https://huggingface.co/StephanAkkerman/chart-info-detector. With the instructions on how to use the pre-trained model.
+
+### Example Output 📊
 The model detects the `symbol_title` and `last_price_pill` in trading chart images as shown below:
 
 ![Example Output](img/example.png)
