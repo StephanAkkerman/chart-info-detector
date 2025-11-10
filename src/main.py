@@ -3,20 +3,45 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from huggingface_hub import create_repo, upload_file
+from huggingface_hub import create_repo, snapshot_download, upload_file
 
 from ultralytics import YOLO
 
 REPO = Path(os.getcwd())
-DATA_YAML = (REPO / "datasets" / "tradingview" / "data.yml").resolve().as_posix()
 PROJECT = "Ultralytics"
 HF_REPO_ID = "StephanAkkerman/chart-info-detector"
+HF_DATASET_ID = "StephanAkkerman/chart-info-yolo"
 MLOPS_STATE = REPO / "mlops_state.json"
 
 ## Model settings
 YOLO_MODEL = "yolo12n"
 IMAGE_SIZE = 1792  # bigger means more VRAM
 EPOCHS = 80
+
+
+def ensure_yolo_dataset_from_hf() -> Path:
+    """
+    Download the YOLO-formatted dataset from HF into:
+        <repo_root>/datasets/tradingview/
+    and return path to data.yml.
+    """
+    local_root = REPO / "datasets" / "tradingview"
+    local_root.mkdir(parents=True, exist_ok=True)
+
+    snapshot_download(
+        repo_id=HF_DATASET_ID,
+        repo_type="dataset",
+        local_dir=local_root,
+        local_dir_use_symlinks=False,
+    )
+
+    data_yaml = next(
+        (p for p in [local_root / "data.yml", local_root / "data.yaml"] if p.exists()),
+        None,
+    )
+    if data_yaml is None:
+        raise FileNotFoundError(f"No data.yml/data.yaml found under {local_root}")
+    return data_yaml.resolve().as_posix()
 
 
 def make_run_name(imgsz: int, epochs: int) -> str:
@@ -116,9 +141,11 @@ def main(resume: bool = False, run_name: str | None = None) -> None:
     else:
         model = YOLO(f"{YOLO_MODEL}.pt")
 
+    data_yaml = ensure_yolo_dataset_from_hf()
+
     # Train
     model.train(
-        data=DATA_YAML,
+        data=data_yaml,
         epochs=EPOCHS,
         imgsz=IMAGE_SIZE,
         batch=0.9,
@@ -142,7 +169,7 @@ def main(resume: bool = False, run_name: str | None = None) -> None:
 
     # Evaluate on test split
     metrics = model.val(
-        data=DATA_YAML,
+        data=data_yaml,
         split="test",
         imgsz=IMAGE_SIZE,
         batch=4,

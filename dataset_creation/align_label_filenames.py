@@ -3,7 +3,7 @@
 import re
 from pathlib import Path
 
-ROOT = Path("datasets/tradingview")
+ROOT = Path("local_datasets/tradingview")
 IMG_EXTS = (".png", ".jpg", ".jpeg")
 ID_PREFIX = re.compile(r"^([^-]+)-(.*)$")  # "<id>-<stem>"
 

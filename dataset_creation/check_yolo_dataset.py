@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 CLASSES = {0: "symbol_title", 1: "last_price_pill"}
-ROOT = Path("datasets/tradingview")  # adjust if needed
+ROOT = Path("local_datasets/tradingview")
 IMG_EXTS = (".png", ".jpg", ".jpeg")
 ID_PREFIX_RE = re.compile(r"^([^-]+)-(.*)$")  # matches "<id>-<basename>"
 

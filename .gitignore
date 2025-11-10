@@ -1,9 +1,10 @@
-datasets/*/images/
+datasets/
 *.pt
 runs/
 *.cache
 wandb/
 Ultralytics/
+local_datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

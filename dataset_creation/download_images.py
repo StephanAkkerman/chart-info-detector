@@ -11,7 +11,7 @@ from datasets import load_dataset
 SEED = 42
 DATASET = "StephanAkkerman/stock-charts"
 HF_SPLIT = "train"  # the split on HF to sample from
-BASE_DIR = Path("datasets/tradingview/images")
+BASE_DIR = Path("local_datasets/tradingview/images")
 
 # Set exact counts per split (deterministic)
 SPLIT_COUNTS = {
